@@ -15,5 +15,13 @@ public class MainController {
 		mav.setViewName("index");
 		return mav;
 	}
+	
+	@RequestMapping(value = { "secure", "secure/" }, method = RequestMethod.GET)
+	public ModelAndView secureIndex() {
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("message", "Recurso protegido por Spring Security");
+		mav.setViewName("secure/index");
+		return mav;
+	}	
 
 }

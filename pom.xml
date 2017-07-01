@@ -5,7 +5,7 @@
 	<artifactId>springboot-thymeleaf3-security</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0.0</version>
-	<name>[Spring Boot] Thymeleaf 3 + Security Integration</name>
+	<name>[Spring Boot] Thymeleaf 3 + Spring Security Integration</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
